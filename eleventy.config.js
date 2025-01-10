@@ -4,5 +4,7 @@ export default function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyI18nPlugin, {
         defaultLanguage: 'en',
     });
+
+    eleventyConfig.setInputDirectory('src');
     //eleventyConfig.setDynamicPermalinks(false);
 } 
